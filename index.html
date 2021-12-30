@@ -15,12 +15,15 @@
       embedded
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
+
+    <!--我們使用醒吾新媒的經緯度-->  
       <a-text
-        value="hwu"
+        value="This content will always face you."
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 25.081736632170113 longitude: 121.39647074845752"
       ></a-text>
+
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
